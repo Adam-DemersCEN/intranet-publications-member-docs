@@ -521,10 +521,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#filtering-publications" class="md-nav__link">
+  <a href="#filtering-and-searching-publications" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Filtering publications
+        Filtering and searching publications
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clearing-filters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clearing filters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sorting-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sorting results
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#showing-all-publications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Showing all publications
       
     </span>
   </a>
@@ -623,10 +656,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#filtering-publications" class="md-nav__link">
+  <a href="#filtering-and-searching-publications" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Filtering publications
+        Filtering and searching publications
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clearing-filters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clearing filters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sorting-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sorting results
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#showing-all-publications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Showing all publications
       
     </span>
   </a>
@@ -662,7 +728,7 @@
 
 
 <h1 id="searching-publications">Searching Publications</h1>
-<p>The publications module lets you browse and filter all publications by CEN members.</p>
+<p>The publications module lets you browse and filter your own publications as well as all publications by CEN members.</p>
 <h2 id="accessing-the-publications-list">Accessing the publications list</h2>
 <p>From the module home page, publications are displayed as a list. You can scroll through the list or use the filtering tools to narrow down your results.</p>
 <figure>
@@ -670,23 +736,61 @@
   </p>
 <figcaption>List of member publications</figcaption>
 </figure>
-<h2 id="filtering-publications">Filtering publications</h2>
+<h2 id="filtering-and-searching-publications">Filtering and searching publications</h2>
 <p>Several filters are available to refine your results:</p>
 <ul>
-<li><strong>Author</strong> — filter by a CEN member's name</li>
-<li><strong>Year</strong> — limit results to one or more publication years</li>
-<li><strong>Publication type</strong> — article, book, chapter, conference proceedings, etc.</li>
+<li><strong>Title</strong> — filter by title</li>
+<li><strong>Author</strong> — filter by author name</li>
+<li><strong>Keywords</strong> — filter by keywords</li>
+<li><strong>Discipline</strong> — filter by discipline</li>
+<li><strong>Study site</strong> — filter by study site</li>
+<li><strong>DOI</strong> — search by DOI</li>
+<li><strong>WoS ID</strong> — search by Web of Science identifier</li>
+<li><strong>Journal</strong> — filter by journal</li>
+<li><strong>URL</strong> — search by URL</li>
+<li><strong>Year</strong> — limit results to a publication year</li>
+<li><strong>Publication type</strong> — article, book, chapter, conference, etc.</li>
 </ul>
-<p>Select one or more filters, then apply them to update the list.</p>
+<p>Use the search bar, the type dropdown, and the year field to filter publications. The search bar filters across multiple fields at once — simply type the terms one after another. For example, typing "John Doe Biology" will display publications where John Doe is an author and biology is one of his disciplines.</p>
 <figure>
-<p><img alt="Search filters" src="../assets/screenshots/search-filters.png" />
+<p><img alt="Search filters" src="../../../assets/screenshots/search-filters.png" />
   </p>
-<figcaption>Publications filter panel</figcaption>
+<figcaption>Publication search and filter box</figcaption>
+</figure>
+<h2 id="clearing-filters">Clearing filters</h2>
+<p>To remove active filters, locate the X at the left end of the search bar. Click it to clear all filters.</p>
+<figure>
+<p><img alt="Clear filters" src="../../../assets/screenshots/erase-filters.png" />
+  </p>
+<figcaption>Click the X to clear filters</figcaption>
+</figure>
+<h2 id="sorting-results">Sorting results</h2>
+<p>To sort the filtered results, locate the "Sort by" dropdown below the year field.</p>
+<p>Several sorting options are available:</p>
+<ul>
+<li><strong>Year (recent → oldest)</strong> — Sort by publication year, most recent first</li>
+<li><strong>Year (oldest → recent)</strong> — Sort by publication year, oldest first</li>
+<li><strong>Title (A → Z)</strong> — Sort by title, alphabetically</li>
+<li><strong>Title (Z → A)</strong> — Sort by title, reverse alphabetically</li>
+<li><strong>Date added (recent)</strong> — Sort by date added, most recent first</li>
+<li><strong>Date added (oldest)</strong> — Sort by date added, oldest first</li>
+</ul>
+<figure>
+<p><img alt="Sort publications" src="../../../assets/screenshots/sort-filters.png" />
+  </p>
+<figcaption>Sorting options dropdown</figcaption>
+</figure>
+<h2 id="showing-all-publications">Showing all publications</h2>
+<p>By default, the list only shows your own publications. You can also browse the entire CEN catalogue. To do so, locate the "My publications only" toggle. When checked, only your publications are shown. When unchecked, all publications in the CEN catalogue are displayed. Click the toggle to uncheck it.</p>
+<figure>
+<p><img alt="My publications only toggle" src="../../../assets/screenshots/my-pubs-only.png" />
+  </p>
+<figcaption>Click "My publications only" to uncheck it</figcaption>
 </figure>
 <h2 id="viewing-a-publication">Viewing a publication</h2>
 <p>Click on a publication title to open its full record: authors, abstract, DOI, year, type, and any other available metadata.</p>
 <figure>
-<p><img alt="Publication detail" src="../assets/screenshots/search-detail.png" />
+<p><img alt="Publication detail" src="../../../assets/screenshots/search-detail.png" />
   </p>
 <figcaption>Detailed publication record</figcaption>
 </figure>

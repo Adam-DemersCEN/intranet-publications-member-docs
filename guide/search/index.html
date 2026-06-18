@@ -521,10 +521,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#filtrer-les-publications" class="md-nav__link">
+  <a href="#filtrer-et-rechercher-les-publications" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Filtrer les publications
+        Filtrer et rechercher les publications
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#effacer-les-filtres" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Effacer les filtres
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trier-les-resultats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trier les résultats
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#afficher-toutes-les-publications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Afficher toutes les publications
       
     </span>
   </a>
@@ -623,10 +656,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#filtrer-les-publications" class="md-nav__link">
+  <a href="#filtrer-et-rechercher-les-publications" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Filtrer les publications
+        Filtrer et rechercher les publications
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#effacer-les-filtres" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Effacer les filtres
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trier-les-resultats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trier les résultats
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#afficher-toutes-les-publications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Afficher toutes les publications
       
     </span>
   </a>
@@ -662,7 +728,7 @@
 
 
 <h1 id="rechercher-des-publications">Rechercher des publications</h1>
-<p>Le module de publications vous permet de consulter et de filtrer l'ensemble des publications des membres du CEN.</p>
+<p>Le module de publications vous permet de consulter et de filtrer vos publications ainsi que l'ensemble des publications des membres du CEN.</p>
 <h2 id="acceder-a-la-liste-des-publications">Accéder à la liste des publications</h2>
 <p>Depuis la page d'accueil du module, les publications sont affichées sous forme de liste. Vous pouvez parcourir cette liste ou utiliser les outils de filtrage pour affiner votre recherche.</p>
 <figure>
@@ -670,27 +736,61 @@
   </p>
 <figcaption>Liste des publications des membres</figcaption>
 </figure>
-<h2 id="filtrer-les-publications">Filtrer les publications</h2>
+<h2 id="filtrer-et-rechercher-les-publications">Filtrer et rechercher les publications</h2>
 <p>Plusieurs filtres sont disponibles pour affiner les résultats :</p>
 <ul>
 <li><strong>Titre</strong> — filtrer par titre</li>
 <li><strong>Auteur</strong> — filtrer par nom d'auteur</li>
 <li><strong>Mots-clés</strong> — filtrer par mots-clés</li>
+<li><strong>Discipline</strong> — filtrer par discipline</li>
+<li><strong>Site d'étude</strong> — filtrer par site d'étude</li>
 <li><strong>DOI</strong> — rechercher par DOI</li>
 <li><strong>WoS ID</strong> — rechercher par identifiant Web of Science</li>
+<li><strong>Journal</strong> — filtrer par journal</li>
+<li><strong>URL</strong> — rechercher par URL</li>
 <li><strong>Année</strong> — limiter les résultats à une année de publication</li>
 <li><strong>Type de publication</strong> — article, livre, chapitre, conférence, etc.</li>
 </ul>
-<p>Sélectionnez un ou plusieurs filtres, puis appliquez-les pour mettre à jour la liste.</p>
+<p>Utilisez la barre de recherche, la liste déroulante des types et le champ "année" pour filtrer les publications. La barre de recherche permet de filtrer plusieurs champs à la fois, il suffit de les taper un à la suite de l'autre. Par exemple, taper "John Doe Biologie" affichera les publications dont John Doe est un auteur et dont la biologie est une de ses disciplines.</p>
 <figure>
-<p><img alt="Filtres de recherche" src="../assets/screenshots/search-filters.png" />
+<p><img alt="Filtres de recherche" src="../../assets/screenshots/search-filters.png" />
   </p>
-<figcaption>Panneau de filtrage des publications</figcaption>
+<figcaption>Boite de rechercher et de filtrage des publications</figcaption>
+</figure>
+<h2 id="effacer-les-filtres">Effacer les filtres</h2>
+<p>Pour retirer les filtres, repérez le X situé à l'extrémité gauche de la barre de recherche lorsqu'un filtre est actif. Cliquez sur le bouton pour effacer les filtres.</p>
+<figure>
+<p><img alt="Effacer les filtres" src="../../assets/screenshots/erase-filters.png" />
+  </p>
+<figcaption>Cliquez sur le X pour effacer les filtres</figcaption>
+</figure>
+<h2 id="trier-les-resultats">Trier les résultats</h2>
+<p>Pour trier les résultats du filtrage, repérez la liste déroulante "Trier par" sous le champ "année".</p>
+<p>Plusieurs options de triage sont disponibles:</p>
+<ul>
+<li><strong>Année (récent → ancien)</strong> — Trier par année de publication, du plus récent au plus ancien</li>
+<li><strong>Année (ancien → récent)</strong> — Trier par année de publication, du plus ancien au plus récent</li>
+<li><strong>Titre (A → Z)</strong> — Trier par titre, en ordre alphabétique</li>
+<li><strong>Titre (Z → A)</strong> — Trier par titre, en ordre alphabétique inversé</li>
+<li><strong>Date d'ajout (récent)</strong> — Trier par date d'ajout, du plus récent au plus ancien</li>
+<li><strong>Date d'ajout (ancien)</strong> — Trier par date d'ajout, du plus ancien au plus récent</li>
+</ul>
+<figure>
+<p><img alt="Trier les publications" src="../../assets/screenshots/sort-filters.png" />
+  </p>
+<figcaption>Liste déroulante des options de triage</figcaption>
+</figure>
+<h2 id="afficher-toutes-les-publications">Afficher toutes les publications</h2>
+<p>Par défaut, la liste des publications affiche seulement vos publications. Il est tout de même possible de consulter toutes les publications du catalogue du CEN. Pour ce faire, repérez le bouton "Mes publications seulement". Lorsque ce bouton est coché, les résultats contiendront seulement vos publications. Lorsqu'il est décoché, les résultats afficherons parmis toutes les publications du catalogue du CEN. Cliquez sur ce bouton pour le décocher.</p>
+<figure>
+<p><img alt="Trier les publications" src="../../assets/screenshots/my-pubs-only.png" />
+  </p>
+<figcaption>Cliquez sur le bouton "Mes publications seulement" pour le décocher</figcaption>
 </figure>
 <h2 id="consulter-une-publication">Consulter une publication</h2>
 <p>Cliquez sur le titre d'une publication pour afficher sa fiche complète : auteurs, résumé, DOI, année, type et toute autre métadonnée disponible.</p>
 <figure>
-<p><img alt="Détail d'une publication" src="../assets/screenshots/search-detail.png" />
+<p><img alt="Détail d'une publication" src="../../assets/screenshots/search-detail.png" />
   </p>
 <figcaption>Fiche détaillée d'une publication</figcaption>
 </figure>
