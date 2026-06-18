@@ -1,0 +1,50 @@
+site_name: Publications - Intranet CEN
+site_url: https://github.com/Adam-DemersCEN/intranet-publications-member-docs/
+
+theme:
+  name: material
+  logo: assets/logo_cen.svg
+  favicon: assets/logo_cen.svg
+  palette:
+    primary: custom
+    accent: custom
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - md_in_html
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: fr
+          default: true
+          name: Français
+          build: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            Accueil: Home
+            Guide d'utilisation: User Guide
+            Accéder au module: Access the Module
+            Créer et modifier: Create and Edit
+            Importer depuis BibTeX: Import from BibTeX
+            Importer depuis ORCID: Import from ORCID
+            Exporter: Export
+            Rechercher: Search
+            FAQ: FAQ
+
+nav:
+  - Accueil: index.md
+  - Guide d'utilisation:
+    - Accéder au module: guide/access.md
+    - Créer et modifier: guide/create-edit.md
+    - Importer depuis BibTeX: guide/import-bibtex.md
+    - Importer depuis ORCID: guide/import-orcid.md
+    - Exporter: guide/export.md
+    - Rechercher: guide/search.md
+  - FAQ: faq.md
