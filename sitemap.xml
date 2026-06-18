@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://github.com/Adam-DemersCEN/intranet-publications-member-docs/</loc>
+        <lastmod>2026-06-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://github.com/Adam-DemersCEN/intranet-publications-member-docs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.com/Adam-DemersCEN/intranet-publications-member-docs/en/"/>
+    </url>
+    <url>
+        <loc>https://github.com/Adam-DemersCEN/intranet-publications-member-docs/guide/access/</loc>
+        <lastmod>2026-06-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://github.com/Adam-DemersCEN/intranet-publications-member-docs/guide/access/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.com/Adam-DemersCEN/intranet-publications-member-docs/en/guide/access/"/>
+    </url>
+    <url>
+        <loc>https://github.com/Adam-DemersCEN/intranet-publications-member-docs/guide/search/</loc>
+        <lastmod>2026-06-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://github.com/Adam-DemersCEN/intranet-publications-member-docs/guide/search/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.com/Adam-DemersCEN/intranet-publications-member-docs/en/guide/search/"/>
+    </url>
+    <url>
+        <loc>https://github.com/Adam-DemersCEN/intranet-publications-member-docs/en/</loc>
+        <lastmod>2026-06-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.com/Adam-DemersCEN/intranet-publications-member-docs/en/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://github.com/Adam-DemersCEN/intranet-publications-member-docs/"/>
+    </url>
+    <url>
+        <loc>https://github.com/Adam-DemersCEN/intranet-publications-member-docs/en/guide/access/</loc>
+        <lastmod>2026-06-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.com/Adam-DemersCEN/intranet-publications-member-docs/en/guide/access/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://github.com/Adam-DemersCEN/intranet-publications-member-docs/guide/access/"/>
+    </url>
+    <url>
+        <loc>https://github.com/Adam-DemersCEN/intranet-publications-member-docs/en/guide/search/</loc>
+        <lastmod>2026-06-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.com/Adam-DemersCEN/intranet-publications-member-docs/en/guide/search/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://github.com/Adam-DemersCEN/intranet-publications-member-docs/guide/search/"/>
+    </url>
+</urlset>
