@@ -31,20 +31,24 @@ plugins:
             Accueil: Home
             Guide d'utilisation: User Guide
             Accéder au module: Access the Module
-            Créer et modifier: Create and Edit
+            Créer: Create
+            Modifier: Edit
             Importer depuis BibTeX: Import from BibTeX
             Importer depuis ORCID: Import from ORCID
-            Exporter: Export
             Rechercher: Search
+            Exporter: Export
+            Masquer: Hide
             FAQ: FAQ
 
 nav:
   - Accueil: index.md
   - Guide d'utilisation:
     - Accéder au module: guide/access.md
-    - Créer et modifier: guide/create-edit.md
+    - Créer: guide/create.md
+    - Modifier: guide/edit.md
     - Importer depuis BibTeX: guide/import-bibtex.md
     - Importer depuis ORCID: guide/import-orcid.md
-    - Exporter: guide/export.md
     - Rechercher: guide/search.md
+    - Exporter: guide/export.md
+    - Masquer: guide/hide.md
   - FAQ: faq.md

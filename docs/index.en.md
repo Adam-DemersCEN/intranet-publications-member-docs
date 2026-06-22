@@ -18,13 +18,21 @@ This guide walks you step by step through the publications module: adding and ed
 
     [See the guide →](guide/access.md)
 
--   **Create and edit publications**
+-   **Create a publication**
 
     ---
 
-    Add new publications manually and update the details of an existing publication directly in the intranet.
+    Add a new publication manually directly in the intranet.
 
-    [See the guide →](guide/create-edit.md)
+    [See the guide →](guide/create.md)
+
+-   **Edit a publication**
+
+    ---
+
+    Update the details of an existing publication directly in the intranet.
+
+    [See the guide →](guide/edit.md)
 
 -   **Import from a BibTeX file**
 
@@ -57,6 +65,14 @@ This guide walks you step by step through the publications module: adding and ed
     Browse the CEN catalogue and filter by author, year, publication type, and more.
 
     [See the guide →](guide/search.md)
+
+-   **Hide a publication**
+
+    ---
+
+    Remove a publication from your personal list while keeping it in the CEN catalogue.
+
+    [See the guide →](guide/hide.md)
 
 </div>
 

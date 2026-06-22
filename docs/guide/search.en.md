@@ -81,4 +81,4 @@ Click on a publication title to open its full record: authors, abstract, DOI, ye
 
 ---
 
-**Next step:** [Create and edit publications →](create-edit.md)
+**Next step:** [Export publications →](export.md)

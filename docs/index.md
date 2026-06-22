@@ -18,13 +18,21 @@ Ce guide vous accompagne pas à pas dans l'utilisation du module de publications
 
     [Voir le guide →](guide/access.md)
 
--   **Créer et modifier des publications**
+-   **Créer une publication**
 
     ---
 
-    Ajoutez de nouvelles publications manuellement et modifiez les informations d'une référence existante directement dans l'intranet.
+    Ajoutez une nouvelle publication manuellement directement dans l'intranet.
 
-    [Voir le guide →](guide/create-edit.md)
+    [Voir le guide →](guide/create.md)
+
+-   **Modifier une publication**
+
+    ---
+
+    Mettez à jour les informations d'une publication existante directement dans l'intranet.
+
+    [Voir le guide →](guide/edit.md)
 
 -   **Importer depuis un fichier BibTeX**
 
@@ -57,6 +65,14 @@ Ce guide vous accompagne pas à pas dans l'utilisation du module de publications
     Explorez le catalogue du CEN, filtrez par auteur, année, type de publication et plus encore.
 
     [Voir le guide →](guide/search.md)
+
+-   **Masquer une publication**
+
+    ---
+
+    Retirez une publication de votre liste personnelle tout en la conservant dans le catalogue du CEN.
+
+    [Voir le guide →](guide/hide.md)
 
 </div>
 

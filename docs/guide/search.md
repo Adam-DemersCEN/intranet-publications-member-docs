@@ -81,4 +81,4 @@ Cliquez sur le titre d'une publication pour afficher sa fiche complète : auteur
 
 ---
 
-**Prochaine étape :** [Créer et modifier des publications →](create-edit.md)
+**Prochaine étape :** [Exporter des publications →](export.md)
