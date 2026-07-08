@@ -4,41 +4,29 @@ Vous pouvez ajouter une nouvelle publication manuellement directement dans le mo
 
 ## Accéder au formulaire de création
 
-Depuis la page d'accueil du module, cliquez sur le bouton **Ajouter une publication**.
+Depuis la page d'accueil du module, cliquez sur le bouton **Ajouter**.
 
 <figure markdown>
   ![Bouton Ajouter une publication](../assets/screenshots/create-button.png)
-  <figcaption>Cliquez sur "Ajouter une publication"</figcaption>
+  <figcaption>Cliquez sur "Ajouter"</figcaption>
 </figure>
 
 ## Remplir le formulaire
 
-Remplissez les champs du formulaire avec les informations de la publication. Les champs obligatoires sont indiqués par un astérisque (*).
+Remplissez les champs de chaque étape du formulaire avec les informations de la publication. Les champs obligatoires sont indiqués par un astérisque (*).
 
 <figure markdown>
   ![Formulaire de création](../assets/screenshots/create-form.png)
   <figcaption>Formulaire de création d'une publication</figcaption>
 </figure>
 
-Les principaux champs disponibles sont :
-
-- **Titre** * — titre complet de la publication
-- **Auteurs** * — liste des auteurs
-- **Type** * — type de publication (article, livre, chapitre, conférence, etc.)
-- **Année** * — année de publication
-- **Journal / Éditeur** — nom du journal ou de l'éditeur
-- **DOI** — identifiant numérique de l'objet
-- **Résumé** — résumé de la publication
-- **Mots-clés** — mots-clés associés
-- **URL** — lien vers la publication en ligne
-
 ## Enregistrer la publication
 
-Une fois le formulaire rempli, cliquez sur **Enregistrer** pour ajouter la publication au catalogue.
+Une fois le formulaire rempli, cliquez sur **Créer** pour ajouter la publication au catalogue.
 
 <figure markdown>
-  ![Bouton Enregistrer](../assets/screenshots/create-save.png)
-  <figcaption>Cliquez sur "Enregistrer" pour confirmer la création</figcaption>
+  ![Bouton Créer](../assets/screenshots/create-save.png)
+  <figcaption>Cliquez sur "Créer" pour confirmer la création</figcaption>
 </figure>
 
 ---

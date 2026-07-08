@@ -1,6 +1,6 @@
 # Editing a Publication
 
-You can update the information of an existing publication at any time.
+You can update the information of an existing publication at any time. Note that you can only edit publications for which you are an author.
 
 ## Accessing the edit form
 

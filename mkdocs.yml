@@ -35,6 +35,7 @@ plugins:
             Modifier: Edit
             Importer depuis BibTeX: Import from BibTeX
             Importer depuis ORCID: Import from ORCID
+            Importer depuis un DOI: Import from a DOI
             Rechercher: Search
             Exporter: Export
             Masquer: Hide
@@ -48,6 +49,7 @@ nav:
     - Modifier: guide/edit.md
     - Importer depuis BibTeX: guide/import-bibtex.md
     - Importer depuis ORCID: guide/import-orcid.md
+    - Importer depuis un DOI: guide/import-doi.md
     - Rechercher: guide/search.md
     - Exporter: guide/export.md
     - Masquer: guide/hide.md

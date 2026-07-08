@@ -50,6 +50,14 @@ This guide walks you step by step through the publications module: adding and ed
 
     [See the guide →](guide/import-orcid.md)
 
+-   **Import from a DOI**
+
+    ---
+
+    Add a publication by entering its DOI — metadata is retrieved automatically.
+
+    [See the guide →](guide/import-doi.md)
+
 -   **Export your publications**
 
     ---

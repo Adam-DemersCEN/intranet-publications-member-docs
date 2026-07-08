@@ -1,6 +1,6 @@
 # Modifier une publication
 
-Vous pouvez modifier les informations d'une publication existante à tout moment.
+Vous pouvez modifier les informations d'une publication existante à tout moment. À noter que vous ne pouvez modifier que les publications dont vous êtes un auteur.
 
 ## Accéder au formulaire de modification
 

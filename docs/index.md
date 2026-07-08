@@ -50,6 +50,14 @@ Ce guide vous accompagne pas à pas dans l'utilisation du module de publications
 
     [Voir le guide →](guide/import-orcid.md)
 
+-   **Importer depuis un DOI**
+
+    ---
+
+    Ajoutez une publication en entrant son DOI : les métadonnées sont récupérées automatiquement.
+
+    [Voir le guide →](guide/import-doi.md)
+
 -   **Exporter vos publications**
 
     ---
