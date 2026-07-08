@@ -8,17 +8,17 @@
       
       
       
-        <link rel="canonical" href="https://github.com/Adam-DemersCEN/intranet-publications-member-docs/en/guide/edit/">
+        <link rel="canonical" href="https://github.com/Adam-DemersCEN/intranet-publications-member-docs/en/guide/import-doi/">
       
       
-        <link rel="prev" href="../create/">
+        <link rel="prev" href="../import-orcid/">
       
       
-        <link rel="next" href="../import-bibtex/">
+        <link rel="next" href="../search/">
       
       
         
-          <link rel="alternate" href="../../../guide/edit/" hreflang="fr">
+          <link rel="alternate" href="../../../guide/import-doi/" hreflang="fr">
         
           <link rel="alternate" href="./" hreflang="en">
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Edit - Publications - Intranet CEN</title>
+        <title>Import from a DOI - Publications - Intranet CEN</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#editing-a-publication" class="md-skip">
+        <a href="#import-from-a-doi" class="md-skip">
           Skip to content
         </a>
       
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Edit
+              Import from a DOI
             
           </span>
         </div>
@@ -136,7 +136,7 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../guide/edit/" hreflang="fr" class="md-select__link">
+            <a href="../../../guide/import-doi/" hreflang="fr" class="md-select__link">
               Français
             </a>
           </li>
@@ -365,37 +365,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Edit
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../edit/" class="md-nav__link">
         
   
   
@@ -411,59 +384,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#accessing-the-edit-form" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Accessing the edit form
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#updating-the-information" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Updating the information
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#saving-changes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Saving changes
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -529,10 +449,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../import-doi/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Import from a DOI
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -548,6 +495,92 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-the-doi-import" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accessing the DOI import
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entering-the-dois" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entering the DOI(s)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reviewing-the-detected-publications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reviewing the detected publications
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#importing-publications-one-by-one" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importing publications one by one
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validating-entries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Validating entries
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#finishing-the-import" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Finishing the import
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -698,10 +731,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#accessing-the-edit-form" class="md-nav__link">
+  <a href="#accessing-the-doi-import" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Accessing the edit form
+        Accessing the DOI import
       
     </span>
   </a>
@@ -709,10 +742,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#updating-the-information" class="md-nav__link">
+  <a href="#entering-the-dois" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Updating the information
+        Entering the DOI(s)
       
     </span>
   </a>
@@ -720,10 +753,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#saving-changes" class="md-nav__link">
+  <a href="#reviewing-the-detected-publications" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Saving changes
+        Reviewing the detected publications
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#importing-publications-one-by-one" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importing publications one by one
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validating-entries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Validating entries
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#finishing-the-import" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Finishing the import
       
     </span>
   </a>
@@ -747,38 +813,57 @@
 
 
 
-<h1 id="editing-a-publication">Editing a Publication</h1>
-<p>You can update the information of an existing publication at any time. Note that you can only edit publications for which you are an author.</p>
-<h2 id="accessing-the-edit-form">Accessing the edit form</h2>
-<p>There are two ways to access the edit form.</p>
-<p><strong>From the publication record</strong> — open the detail record by clicking on the publication title, then click the <strong>Edit</strong> button.</p>
+<h1 id="import-from-a-doi">Import from a DOI</h1>
+<p>The publications module lets you quickly add one or more publications by entering a DOI (Digital Object Identifier) or a WoS ID (Web of Science Identifier). Metadata is retrieved automatically from bibliographic databases.</p>
+<h2 id="accessing-the-doi-import">Accessing the DOI import</h2>
+<p>From the module home page, locate the <strong>Import</strong> menu, then select the <strong>DOI</strong> option.</p>
 <figure>
-<p><img alt="Edit button on the record" src="../assets/screenshots/edit-button-detail.png" />
+<p><img alt="DOI import option" src="../assets/screenshots/doi-option.png" />
   </p>
-<figcaption>Click "Edit" from the publication record</figcaption>
+<figcaption>Select "DOI"</figcaption>
 </figure>
-<p><strong>From the list</strong> — click the publication's menu in the list, then select <strong>Edit</strong>.</p>
+<h2 id="entering-the-dois">Entering the DOI(s)</h2>
+<p>Type the DOI or WoS ID of the publication into the input field, then click <strong>Search and import</strong>. To import multiple publications, enter each identifier on a separate line.</p>
+<p><strong>Accepted formats:</strong></p>
+<ul>
+<li><code>10.1234/example.2024</code></li>
+<li><code>WOS:000123456789012</code></li>
+</ul>
 <figure>
-<p><img alt="Edit button in the list" src="../assets/screenshots/edit-button-list.png" />
+<p><img alt="DOI input field" src="../assets/screenshots/doi-input.png" />
   </p>
-<figcaption>Click "Edit" from the list menu</figcaption>
+<figcaption>Enter the DOI or WoS ID of the publication</figcaption>
 </figure>
-<h2 id="updating-the-information">Updating the information</h2>
-<p>The edit form is identical to the creation form. Make the desired corrections or additions in the relevant fields.</p>
+<h2 id="reviewing-the-detected-publications">Reviewing the detected publications</h2>
+<p>The module searches for publications matching the entered identifiers and displays the list of results. Publications already in your list will be flagged and skipped to avoid duplicates.</p>
 <figure>
-<p><img alt="Edit form" src="../assets/screenshots/edit-form.png" />
+<p><img alt="Preview of publications to import" src="../assets/screenshots/DOI-preview.png" />
   </p>
-<figcaption>Publication edit form</figcaption>
+<figcaption>List of retrieved publications</figcaption>
 </figure>
-<h2 id="saving-changes">Saving changes</h2>
-<p>Once your changes are complete, click <strong>Save</strong> to update the publication.</p>
+<h2 id="importing-publications-one-by-one">Importing publications one by one</h2>
+<p>Locate the publication you want to import, then click <strong>Import</strong>.</p>
 <figure>
-<p><img alt="Save changes button" src="../assets/screenshots/edit-save.png" />
+<p><img alt="Importing publications one by one" src="../assets/screenshots/DOI-onebyone.png" />
   </p>
-<figcaption>Click "Save" to confirm your changes</figcaption>
+<figcaption>Import publications one by one</figcaption>
+</figure>
+<h2 id="validating-entries">Validating entries</h2>
+<p>You will be redirected to the pre-filled creation page with the retrieved metadata. Review each field, fill in any missing information if needed, then click <strong>Create</strong> to add the publication to your list. You will then be redirected back to the import page. Repeat these two steps for each publication to import.</p>
+<figure>
+<p><img alt="Validating the entry" src="../assets/screenshots/doi-preview.png" />
+  </p>
+<figcaption>Validate the entry and click "Create"</figcaption>
+</figure>
+<h2 id="finishing-the-import">Finishing the import</h2>
+<p>When all publications have been imported, you will be automatically redirected to the module home page. To finish the import manually, click <strong>Finish import</strong>.</p>
+<figure>
+<p><img alt="Finish import" src="../assets/screenshots/DOI-end-import.png" />
+  </p>
+<figcaption>Click "Finish import"</figcaption>
 </figure>
 <hr />
-<p><strong>Next step:</strong> <a href="../import-bibtex/">Import from a BibTeX file →</a></p>
+<p><strong>Next step:</strong> <a href="../search/">Search publications →</a></p>
 
 
 

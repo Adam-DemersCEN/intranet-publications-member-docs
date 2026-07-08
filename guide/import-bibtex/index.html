@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="fr" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -8,35 +8,35 @@
       
       
       
-        <link rel="canonical" href="https://github.com/Adam-DemersCEN/intranet-publications-member-docs/en/guide/edit/">
+        <link rel="canonical" href="https://github.com/Adam-DemersCEN/intranet-publications-member-docs/guide/import-bibtex/">
       
       
-        <link rel="prev" href="../create/">
+        <link rel="prev" href="../edit/">
       
       
-        <link rel="next" href="../import-bibtex/">
+        <link rel="next" href="../import-orcid/">
       
       
         
-          <link rel="alternate" href="../../../guide/edit/" hreflang="fr">
+          <link rel="alternate" href="./" hreflang="fr">
         
-          <link rel="alternate" href="./" hreflang="en">
+          <link rel="alternate" href="../../en/guide/import-bibtex/" hreflang="en">
         
       
       
-      <link rel="icon" href="../../../assets/logo_cen.svg">
+      <link rel="icon" href="../../assets/logo_cen.svg">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Edit - Publications - Intranet CEN</title>
+        <title>Importer depuis BibTeX - Publications - Intranet CEN</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -55,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -80,8 +80,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#editing-a-publication" class="md-skip">
-          Skip to content
+        <a href="#importer-depuis-un-fichier-bibtex" class="md-skip">
+          Aller au contenu
         </a>
       
     </div>
@@ -95,10 +95,10 @@
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../" title="Publications - Intranet CEN" class="md-header__button md-logo" aria-label="Publications - Intranet CEN" data-md-component="logo">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../.." title="Publications - Intranet CEN" class="md-header__button md-logo" aria-label="Publications - Intranet CEN" data-md-component="logo">
       
-  <img src="../../../assets/logo_cen.svg" alt="logo">
+  <img src="../../assets/logo_cen.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Edit
+              Importer depuis BibTeX
             
           </span>
         </div>
@@ -129,20 +129,20 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="Select language">
+    <button class="md-header__button md-icon" aria-label="Sélectionner la langue">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../guide/edit/" hreflang="fr" class="md-select__link">
+            <a href="./" hreflang="fr" class="md-select__link">
               Français
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="./" hreflang="en" class="md-select__link">
+            <a href="../../en/guide/import-bibtex/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -163,16 +163,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Search">
+      <nav class="md-search__options" aria-label="Recherche">
         
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
@@ -183,7 +183,7 @@
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Initializing search
+            Initialisation de la recherche
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -219,9 +219,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../" title="Publications - Intranet CEN" class="md-nav__button md-logo" aria-label="Publications - Intranet CEN" data-md-component="logo">
+    <a href="../.." title="Publications - Intranet CEN" class="md-nav__button md-logo" aria-label="Publications - Intranet CEN" data-md-component="logo">
       
-  <img src="../../../assets/logo_cen.svg" alt="logo">
+  <img src="../../assets/logo_cen.svg" alt="logo">
 
     </a>
     Publications - Intranet CEN
@@ -236,14 +236,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../" class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Home
+    Accueil
   
 
     
@@ -283,7 +283,7 @@
   <span class="md-ellipsis">
     
   
-    User Guide
+    Guide d'utilisation
   
 
     
@@ -299,7 +299,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    User Guide
+    Guide d'utilisation
   
 
           </label>
@@ -319,7 +319,7 @@
   <span class="md-ellipsis">
     
   
-    Access the Module
+    Accéder au module
   
 
     
@@ -347,7 +347,35 @@
   <span class="md-ellipsis">
     
   
-    Create
+    Créer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../edit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modifier
   
 
     
@@ -384,7 +412,7 @@
   <span class="md-ellipsis">
     
   
-    Edit
+    Importer depuis BibTeX
   
 
     
@@ -402,7 +430,7 @@
   <span class="md-ellipsis">
     
   
-    Edit
+    Importer depuis BibTeX
   
 
     
@@ -414,7 +442,7 @@
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
   
   
   
@@ -423,15 +451,15 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      Table des matières
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#accessing-the-edit-form" class="md-nav__link">
+  <a href="#exporter-un-fichier-bibtex-depuis-votre-gestionnaire" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Accessing the edit form
+        Exporter un fichier BibTeX depuis votre gestionnaire
       
     </span>
   </a>
@@ -439,10 +467,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#updating-the-information" class="md-nav__link">
+  <a href="#acceder-a-limport-bibtex" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Updating the information
+        Accéder à l'import BibTeX
       
     </span>
   </a>
@@ -450,10 +478,54 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#saving-changes" class="md-nav__link">
+  <a href="#televerser-le-fichier" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Saving changes
+        Téléverser le fichier
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verifier-les-publications-importees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vérifier les publications importées
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#importer-les-publications-une-a-une" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importer les publications une à une
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validation-des-entrees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Validation des entrées
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminer-limport" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Terminer l'import
       
     </span>
   </a>
@@ -476,34 +548,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../import-bibtex/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Import from BibTeX
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../import-orcid/" class="md-nav__link">
         
   
@@ -511,7 +555,7 @@
   <span class="md-ellipsis">
     
   
-    Import from ORCID
+    Importer depuis ORCID
   
 
     
@@ -539,7 +583,7 @@
   <span class="md-ellipsis">
     
   
-    Import from a DOI
+    Importer depuis un DOI
   
 
     
@@ -567,7 +611,7 @@
   <span class="md-ellipsis">
     
   
-    Search
+    Rechercher
   
 
     
@@ -595,7 +639,7 @@
   <span class="md-ellipsis">
     
   
-    Export
+    Exporter
   
 
     
@@ -623,7 +667,7 @@
   <span class="md-ellipsis">
     
   
-    Hide
+    Masquer
   
 
     
@@ -684,7 +728,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
   
   
   
@@ -693,15 +737,15 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      Table des matières
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#accessing-the-edit-form" class="md-nav__link">
+  <a href="#exporter-un-fichier-bibtex-depuis-votre-gestionnaire" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Accessing the edit form
+        Exporter un fichier BibTeX depuis votre gestionnaire
       
     </span>
   </a>
@@ -709,10 +753,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#updating-the-information" class="md-nav__link">
+  <a href="#acceder-a-limport-bibtex" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Updating the information
+        Accéder à l'import BibTeX
       
     </span>
   </a>
@@ -720,10 +764,54 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#saving-changes" class="md-nav__link">
+  <a href="#televerser-le-fichier" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Saving changes
+        Téléverser le fichier
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verifier-les-publications-importees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vérifier les publications importées
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#importer-les-publications-une-a-une" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importer les publications une à une
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validation-des-entrees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Validation des entrées
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminer-limport" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Terminer l'import
       
     </span>
   </a>
@@ -747,38 +835,54 @@
 
 
 
-<h1 id="editing-a-publication">Editing a Publication</h1>
-<p>You can update the information of an existing publication at any time. Note that you can only edit publications for which you are an author.</p>
-<h2 id="accessing-the-edit-form">Accessing the edit form</h2>
-<p>There are two ways to access the edit form.</p>
-<p><strong>From the publication record</strong> — open the detail record by clicking on the publication title, then click the <strong>Edit</strong> button.</p>
+<h1 id="importer-depuis-un-fichier-bibtex">Importer depuis un fichier BibTeX</h1>
+<p>Le module de publications vous permet d'importer un lot de publications en téléversant un fichier BibTeX (<code>.bib</code>). Ce format est exporté par la plupart des gestionnaires bibliographiques tels que Zotero, Mendeley ou EndNote.</p>
+<h2 id="exporter-un-fichier-bibtex-depuis-votre-gestionnaire">Exporter un fichier BibTeX depuis votre gestionnaire</h2>
+<p>Avant d'importer, exportez vos publications au format BibTeX depuis votre gestionnaire bibliographique. Consultez la documentation de votre logiciel pour connaître la procédure d'export.</p>
+<h2 id="acceder-a-limport-bibtex">Accéder à l'import BibTeX</h2>
+<p>Depuis la page d'accueil du module, repérez le menu <strong>Importer</strong>, puis sélectionnez l'option <strong>BibTeX</strong>.</p>
 <figure>
-<p><img alt="Edit button on the record" src="../assets/screenshots/edit-button-detail.png" />
+<p><img alt="Option d'import BibTeX" src="../assets/screenshots/bibtex-option.png" />
   </p>
-<figcaption>Click "Edit" from the publication record</figcaption>
+<figcaption>Sélectionnez "BibTeX"</figcaption>
 </figure>
-<p><strong>From the list</strong> — click the publication's menu in the list, then select <strong>Edit</strong>.</p>
+<h2 id="televerser-le-fichier">Téléverser le fichier</h2>
+<p>Cliquez sur le bouton de sélection de fichier et choisissez votre fichier <code>.bib</code> depuis votre ordinateur ou glissez le fichier dans la zone de dépôt.</p>
 <figure>
-<p><img alt="Edit button in the list" src="../assets/screenshots/edit-button-list.png" />
+<p><img alt="Sélection du fichier BibTeX" src="../assets/screenshots/bibtex-upload.png" />
   </p>
-<figcaption>Click "Edit" from the list menu</figcaption>
+<figcaption>Sélectionnez votre fichier .bib</figcaption>
 </figure>
-<h2 id="updating-the-information">Updating the information</h2>
-<p>The edit form is identical to the creation form. Make the desired corrections or additions in the relevant fields.</p>
+<h2 id="verifier-les-publications-importees">Vérifier les publications importées</h2>
+<p>Le module analyse le fichier et affiche la liste des publications détectées. Les publications déjà présentes dans votre liste seront signalées et ignorées pour éviter les doublons. Cliquez sur <strong>Continuer l'import</strong>.</p>
 <figure>
-<p><img alt="Edit form" src="../assets/screenshots/edit-form.png" />
+<p><img alt="Aperçu des publications à importer" src="../assets/screenshots/bibtex-preview.png" />
   </p>
-<figcaption>Publication edit form</figcaption>
+<figcaption>Liste des publications détectées dans le fichier BibTeX</figcaption>
 </figure>
-<h2 id="saving-changes">Saving changes</h2>
-<p>Once your changes are complete, click <strong>Save</strong> to update the publication.</p>
+<h2 id="importer-les-publications-une-a-une">Importer les publications une à une</h2>
+<p>Repérez la publication à importer, puis cliquez sur <strong>Importer</strong>.</p>
 <figure>
-<p><img alt="Save changes button" src="../assets/screenshots/edit-save.png" />
+<p><img alt="Importer les publications une à une" src="../assets/screenshots/bibtex-onebyone.png" />
   </p>
-<figcaption>Click "Save" to confirm your changes</figcaption>
+<figcaption>Importez les publications une à une</figcaption>
+</figure>
+<h2 id="validation-des-entrees">Validation des entrées</h2>
+<p>Vous serez alors redirigés vers la page de création préremplie. Vérifiez chaque champ, complétez les informations manquantes si nécessaire, puis cliquez sur <strong>Créer</strong> pour ajouter la publication à votre liste. Vous serez ensuite redirigés vers la page d'import. Répétez ces deux étape pour chaque publication à importer.</p>
+<figure>
+<p><img alt="Validation des entrées" src="../assets/screenshots/bibtex-onebyone.png" />
+  </p>
+<figcaption>Validez chaque entrée et cliquez sur "Créer"</figcaption>
+</figure>
+<h2 id="terminer-limport">Terminer l'import</h2>
+<p>Lorsque toutes les publications du fichier ont été importées, vous serez automatiquement redirigés vers la page d'accueil du module. Pour terminer l'import manuellement, cliquez sur <strong>Terminer l'import</strong>.</p>
+<figure>
+<p><img alt="Terminer l'import" src="../assets/screenshots/bibtex-end-import.png" />
+  </p>
+<figcaption>Cliquez sur "Terminer l'import"</figcaption>
 </figure>
 <hr />
-<p><strong>Next step:</strong> <a href="../import-bibtex/">Import from a BibTeX file →</a></p>
+<p><strong>Prochaine étape :</strong> <a href="../import-orcid/">Importer depuis ORCID →</a></p>
 
 
 
@@ -828,10 +932,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
