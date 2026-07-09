@@ -47,7 +47,7 @@ Repérez la publication à importer, puis cliquez sur **Importer**.
 Vous serez alors redirigés vers la page de création préremplie. Vérifiez chaque champ, complétez les informations manquantes si nécessaire, puis cliquez sur **Créer** pour ajouter la publication à votre liste. Vous serez ensuite redirigés vers la page d'import. Répétez ces deux étape pour chaque publication à importer.
 
 <figure markdown>
-  ![Validation des entrées](../assets/screenshots/bibtex-onebyone.png)
+  ![Validation des entrées](../assets/screenshots/bibtex-validate.png)
   <figcaption>Validez chaque entrée et cliquez sur "Créer"</figcaption>
 </figure>
 

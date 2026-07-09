@@ -1,23 +1,23 @@
 # Importer depuis ORCID
 
-Le module de publications vous permet d'importer vos publications directement depuis votre profil ORCID. Vous aurez besoin de votre identifiant ORCID (format `0000-0000-0000-0000`).
+Le module de publications vous permet d'importer vos publications directement depuis votre profil ORCID. Votre identifiant ORCID (format `0000-0000-0000-0000`) doit être lié à votre compte utilisateur. Si tel n'est pas le cas, contactez un administrateur.
 
 ## Accéder à l'import ORCID
 
-Depuis la page d'accueil du module, cliquez sur le bouton **Ajouter une publication**, puis sélectionnez l'option **Importer depuis ORCID**.
+Depuis la page d'accueil du module, repérez le menu **Importer**, puis sélectionnez l'option **Sync ORCID**.
 
 <figure markdown>
   ![Option d'import ORCID](../assets/screenshots/orcid-option.png)
-  <figcaption>Sélectionnez "Importer depuis ORCID"</figcaption>
+  <figcaption>Sélectionnez "Sync ORCID"</figcaption>
 </figure>
 
-## Entrer votre identifiant ORCID
+## Validez votre identifiant ORCID
 
-Saisissez votre identifiant ORCID dans le champ prévu à cet effet, puis cliquez sur **Rechercher**.
+Validez l'identifiant ORCID affiché, puis cliquez sur **Synchroniser**.
 
 <figure markdown>
-  ![Champ de saisie de l'identifiant ORCID](../assets/screenshots/orcid-input.png)
-  <figcaption>Entrez votre identifiant ORCID</figcaption>
+  ![Validation de l'identiiant ORCID](../assets/screenshots/orcid-sync.png)
+  <figcaption>Cliquez sur "Synchroniser"</figcaption>
 </figure>
 
 ## Vérifier les publications trouvées
@@ -29,13 +29,31 @@ Le module récupère les publications associées à votre profil ORCID et les af
   <figcaption>Publications trouvées sur votre profil ORCID</figcaption>
 </figure>
 
-## Confirmer l'import
+## Importer les publications une à une
 
-Cliquez sur **Confirmer** pour ajouter les nouvelles publications à votre liste.
+Repérez la publication à importer, puis cliquez sur **Importer**.
 
 <figure markdown>
-  ![Confirmation de l'import ORCID](../assets/screenshots/orcid-confirm.png)
-  <figcaption>Confirmez l'import des publications ORCID</figcaption>
+  ![Importer les publications une à une](../assets/screenshots/orcid-onebyone.png)
+  <figcaption>Importez les publications une à une</figcaption>
+</figure>
+
+## Validation des entrées
+
+Vous serez alors redirigés vers la page de création préremplie. Vérifiez chaque champ, complétez les informations manquantes si nécessaire, puis cliquez sur **Créer** pour ajouter la publication à votre liste. Vous serez ensuite redirigés vers la page d'import. Répétez ces deux étape pour chaque publication à importer.
+
+<figure markdown>
+  ![Validation des entrées](../assets/screenshots/orcid-validate.png)
+  <figcaption>Validez chaque entrée et cliquez sur "Créer"</figcaption>
+</figure>
+
+## Terminer l'import
+
+Lorsque toutes les publications ont été créées, vous serez automatiquement redirigés vers la page d'accueil du module. Pour terminer l'import manuellement, cliquez sur **Terminer l'import**.
+
+<figure markdown>
+  ![Terminer l'import](../assets/screenshots/orcid-end-import.png)
+  <figcaption>Cliquez sur "Terminer l'import"</figcaption>
 </figure>
 
 ---

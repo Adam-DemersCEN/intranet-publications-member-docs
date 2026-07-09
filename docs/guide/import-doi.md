@@ -30,7 +30,7 @@ Saisissez le DOI ou le WoS ID de la publication dans le champ prévu à cet effe
 Le module recherche les publications correspondant aux identifiants entrés et affiche la liste des publications détectées. Les publications déjà présentes dans votre liste seront signalées et ignorées pour éviter les doublons.
 
 <figure markdown>
-  ![Aperçu des publications à importer](../assets/screenshots/DOI-preview.png)
+  ![Aperçu des publications à importer](../assets/screenshots/doi-onebyone.png)
   <figcaption>Liste des publications recherchées</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ Le module recherche les publications correspondant aux identifiants entrés et a
 Repérez la publication à importer, puis cliquez sur **Importer**.
 
 <figure markdown>
-  ![Importer les publications une à une](../assets/screenshots/DOI-onebyone.png)
+  ![Importer les publications une à une](../assets/screenshots/doi-onebyone.png)
   <figcaption>Importez les publications une à une</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ Repérez la publication à importer, puis cliquez sur **Importer**.
 Vous serez redirigés vers la page de création préremplie avec les métadonnées récupérées. Vérifiez chaque champ, complétez les informations manquantes si nécessaire, puis cliquez sur **Créer** pour ajouter la publication à votre liste. Vous serez ensuite redirigés vers la page d'import. Répétez ces deux étape pour chaque publication à importer.
 
 <figure markdown>
-  ![Validation de l'entrée](../assets/screenshots/doi-preview.png)
+  ![Validation de l'entrée](../assets/screenshots/doi-validate.png)
   <figcaption>Validez l'entrée et cliquez sur "Créer"</figcaption>
 </figure>
 
@@ -57,7 +57,7 @@ Vous serez redirigés vers la page de création préremplie avec les métadonné
 Lorsque toutes les publications ont été importées, vous serez automatiquement redirigés vers la page d'accueil du module. Pour terminer l'import manuellement, cliquez sur **Terminer l'import**.
 
 <figure markdown>
-  ![Terminer l'import](../assets/screenshots/DOI-end-import.png)
+  ![Terminer l'import](../assets/screenshots/doi-end-import.png)
   <figcaption>Cliquez sur "Terminer l'import"</figcaption>
 </figure>
 

@@ -20,6 +20,11 @@ Remplissez les champs de chaque étape du formulaire avec les informations de la
   <figcaption>Formulaire de création d'une publication</figcaption>
 </figure>
 
+<figure markdown>
+  ![Formulaire de création (suite)](../assets/screenshots/create-form2.png)
+  <figcaption>Formulaire de création d'une publication (suite)</figcaption>
+</figure>
+
 ## Enregistrer la publication
 
 Une fois le formulaire rempli, cliquez sur **Créer** pour ajouter la publication au catalogue.
