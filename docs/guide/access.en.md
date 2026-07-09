@@ -29,4 +29,4 @@ You will land on the main page of the publications module. From here you can man
 
 ---
 
-**Next step:** [Create and edit publications →](create-edit.md)
+**Next step:** [Create a publication →](create.md)

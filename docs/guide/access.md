@@ -29,4 +29,4 @@ Vous arrivez sur la page principale du module de publications. C'est à partir d
 
 ---
 
-**Prochaine étape :** [Créer et modifier des publications →](create-edit.md)
+**Prochaine étape :** [Créer une publication →](create.md)
